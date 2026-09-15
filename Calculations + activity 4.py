@@ -1,15 +1,15 @@
 # do activity 4 on this one
-x = float(input("Select number for x: "))
-y = float(input("Select number for y: "))
-cash = input("Select an operation: ")
+x = 33.4
+y = 45.99
 
-if cash == "+":
-    print(f"Addition {x + y} !")
-elif cash == "-":
-    print(f"Subtraction {x - y} !")
-elif cash == "*":
-    print(f"Multiplication {x * y} !")
-elif cash == "/":
-    print(f"Division {x / y} !")
-else:
-    print("Operation not recognized")
+sum = x + y
+difference = x - y
+product = x * y
+division = x / y
+
+print(sum)
+print(difference)
+print(product)
+print(division)
+#
+
