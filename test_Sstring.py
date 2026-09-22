@@ -1,4 +1,4 @@
-from sstring import make_upper  # test file name
+from Sstring import make_upper  # test file name
 
 
 def test_make_upper():
