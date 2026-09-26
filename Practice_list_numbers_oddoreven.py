@@ -124,3 +124,22 @@ elif action == 3:
     print('Your new balance with interest is:', bank_balance)
 else:
     print("Error: Wrong input.")
+
+#Take a user's mark (0–100) and print a grade: A (70+), B (60–69), C (50–59), D (40–49), F (below 40) — use if/elif/else.
+
+user_mark = int(input('Give me a mark between 0 and 100: '))
+if user_mark < 40:
+    print("F-grade")
+elif user_mark > 40 or user_mark < 49:
+    print('D-Grade')
+elif user_mark > 50 or user_mark < 59:
+    print('C-Grade')
+elif user_mark > 60 or user_mark < 69:
+    print('B-Grade')
+else:
+    print('A-Grade')
+
+
+#A cinema charges: under 12 → £5, 12–17 → £8, 18–64 → £12, 65+ → £6. Ask for age and print the ticket price.
+#Write a nested if program: check if a number is positive/negative/zero, and if positive, also check if it's odd or even.
+#A gym membership gives a discount if (age is 18–21) OR (has a student ID = "yes"). Take both inputs and print the discount status using a compound Boolean expression.
